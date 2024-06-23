@@ -1,0 +1,31 @@
+\section{Comparison of UCS and A* Algorithms}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|p{6cm}|p{6cm}|}
+        \hline
+        & \textbf{Uniform-Cost Search (UCS)} & \textbf{A* Search} \\ \hline
+        \textbf{Heuristic Function} & 
+        Does not use a heuristic function. It purely considers the path cost from the start node to the current node ($g(n)$). & 
+        Incorporates a heuristic function ($h(n)$) in addition to the path cost. The total cost function for A* is $f(n) = g(n) + h(n)$, where $h(n)$ is an estimate of the cost from the current node to the goal. \\ \hline
+        
+        \textbf{Cost Evaluation} & 
+        Chooses the node with the minimum path cost ($g(n)$) among nodes that have not been visited but have a neighbor that has been visited. & 
+        Chooses the node with the minimum combined cost ($g(n) + h(n)$) among nodes in the frontier. \\ \hline
+        
+        \textbf{Optimality} & 
+        \multicolumn{2}{|p{12cm}|}{Guaranteed to find an optimal solution if the heuristic used in A* is admissible (never overestimates the true cost).} \\ \hline
+        
+        \textbf{Time and Space Complexity} & 
+        \multicolumn{2}{|p{12cm}|}{Have the same time and space complexity in the worst case. However, A* can be more efficient in practice due to the heuristic guiding the search more effectively.} \\ \hline
+        
+        \textbf{Completeness} & 
+        \multicolumn{2}{|p{12cm}|}{Complete, meaning if there is a solution, both algorithms will find it.} \\ \hline
+        
+        \textbf{Practical Benefit} & 
+        Does not benefit from heuristic guidance and may explore more nodes than necessary. & 
+        Allows the use of a heuristic, which in non-worst-case scenarios can significantly reduce the number of nodes explored, providing a large practical benefit. \\ \hline
+    \end{tabular}
+    \caption{Comparison of UCS and A* Algorithms}
+    \label{tab:ucs_vs_astar}
+\end{table}

@@ -1,0 +1,39 @@
+\subsection{Depth First Search (DFS) Algorithm }
+\subsubsection*{Concepts}
+\begin{itemize}
+    \item \textbf{Introduction:} Depth First Search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It traverses deeper into the graph, exploring nodes in depth-first order.
+    \item \textbf{Traversal Method:} DFS uses a recursion (or stack) to keep track of nodes to be explored. It starts from a source node and explores as far as possible along each branch before backtracking.
+\end{itemize}
+
+\subsubsection*{Pseudo Code}
+\begin{verbatim}
+function RECURSIVE-DFS(node, problem) returns a solution node or failure
+    if problem.IS-GOAL(node.STATE) then return node
+    
+    for each child in EXPAND(problem, node) do
+        s ← child.STATE
+        if s is not visited then
+            mark s as visited
+            result ← RECURSIVE-DFS(child, problem)
+            if result != failure then return result
+    
+    return failure
+           
+function DEPTH-FIRST-SEARCH(problem) returns a solution node or failure
+    node ← NODE(problem.INITIAL)
+    mark node.STATE as visited
+    return RECURSIVE-DFS(node, problem)
+\end{verbatim}
+
+\subsubsection*{Complexity}
+\begin{itemize}
+    \item \textbf{Time Complexity:} \(O(V + E)\), where \(V\) is the number of vertices and \(E\) is the number of edges. In the worst case, DFS explores all vertices and edges of the graph.
+    \item \textbf{Space Complexity:} \(O(V)\), as additional space is required for the stack and the visited set.
+\end{itemize}
+
+\subsubsection*{Properties}
+\begin{itemize}
+    \item \textbf{Completeness:} DFS is complete if the search tree is finite, meaning for a given finite search tree, DFS will come up with a solution if it exists. 
+    \item \textbf{Optimality:} DFS is not optimal, meaning the number of steps in reaching the solution, or the cost spent in reaching it is high. 
+    \item \textbf{Traversal Type:} Recursive DFS is a depth-first traversal.
+\end{itemize}

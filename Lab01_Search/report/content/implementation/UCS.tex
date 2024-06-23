@@ -1,0 +1,48 @@
+\subsection{Uniform-Cost Search (UCS)}
+\subsubsection*{Concepts}
+\begin{itemize}
+    \item \textbf{Introduction:} Uniform-Cost Search (UCS) is a graph search algorithm that finds the lowest cost path from a starting node to a goal node in a weighted graph.
+    \item \textbf{Traversal Method:} UCS uses a priority queue ordered by path cost to expand nodes with the lowest cumulative cost.
+\end{itemize}
+
+\subsubsection*{Pseudo Code}
+\label{UCS_best_first_search}
+\begin{verbatim}
+function BEST-FIRST-SEARCH(problem,f) returns a solution node or failure
+    node←NODE(STATE=problem.INITIAL)
+    frontier←a priority queue ordered by f , with node as an element
+    reached←a lookup table, with one entry with key problem.INITIAL and value node
+    while not IS-EMPTY(frontier) do
+        node←POP(frontier)
+        if problem.IS-GOAL(node.STATE) then return node
+        for each child in EXPAND(problem, node) do
+            s←child.STATE
+            if s is not in reached or child.PATH-COST < reached[s].PATH-COST then
+                reached[s]←child
+                add child to frontier
+    return failure
+function EXPAND(problem, node) yields nodes
+    s←node.STATE
+    for each action in problem.ACTIONS(s) do
+        s' ←problem.RESULT(s, action)
+        cost←node.PATH-COST + problem.ACTION-COST(s, action,s')
+        yield NODE(STATE=s', PARENT=node, ACTION=action, PATH-COST=cost)
+\end{verbatim}
+\begin{verbatim}
+
+function UNIFORM-COST-SEARCH(problem) returns a solution node, or failure
+    return BEST-FIRST-SEARCH(problem, PATH-COST)    
+\end{verbatim}
+
+\subsubsection*{Complexity}
+\begin{itemize}
+    \item \textbf{Time Complexity:} \(O((V + E) \log V)\), where \(V\) is the number of vertices and \(E\) is the number of edges. UCS uses a priority queue, and each edge and vertex may be processed multiple times.
+    \item \textbf{Space Complexity:} \(O(V)\), as additional space is required for the priority queue and the visited set.
+\end{itemize}
+
+\subsubsection*{Properties}
+\begin{itemize}
+    \item \textbf{Completeness:} UCS is complete, as it will always find a solution if one exists, given non-negative edge costs.
+    \item \textbf{Optimality:} UCS is optimal; it finds the lowest cost path if all edge costs are non-negative.
+    \item \textbf{Traversal Type:} UCS explores nodes with the lowest path cost first.
+\end{itemize}

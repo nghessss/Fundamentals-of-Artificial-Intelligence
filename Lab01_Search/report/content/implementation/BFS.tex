@@ -1,0 +1,37 @@
+\subsection{Breadth First Search (BFS) Algorithm }
+\subsubsection*{Concepts}
+\begin{itemize}
+    \item \textbf{Introduction:} BFS is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
+    \item \textbf{Traversal Method:} BFS uses a queue data structure to keep track of nodes to be explored. It starts from a source node and explores all its neighboring nodes level by level.
+\end{itemize}
+
+\subsubsection*{Pseudo Code}
+\begin{verbatim}
+    function BREADTH-FIRST-SEARCH(problem) returns a solution node or failure
+        node←NODE(problem.INITIAL)
+        if problem.IS-GOAL(node.STATE) then return node
+        frontier←a FIFO queue, with node as an element
+        reached← {problem.INITIAL}
+        while not IS-EMPTY(frontier) do
+            node←POP(frontier)
+            for each child in EXPAND(problem, node) do
+            s←child.STATE
+            if problem.IS-GOAL(s) then return child
+            if s is not in reached then
+                add s to reached
+                add child to frontier
+    return failure
+\end{verbatim}
+
+\subsubsection*{Complexity}
+\begin{itemize}
+    \item \textbf{Time Complexity:} \(O(V + E)\), where \(V\) is the number of vertices and \(E\) is the number of edges. This is because each vertex and each edge is processed once.
+    \item \textbf{Space Complexity:} \(O(V)\), as additional space is required for the queue and the visited set.
+\end{itemize}
+
+\subsubsection*{Properties}
+\begin{itemize}
+    \item \textbf{Completeness:} BFS is complete, meaning it will always find a solution if one exists, given that the graph is finite.
+    \item \textbf{Optimality:} BFS is optimal if all edges have the same weight or no weights. It finds the shortest path in an unweighted graph.
+    \item \item \textbf{Traversal Type:} UCS explores nodes with the lowest path cost first.
+\end{itemize}

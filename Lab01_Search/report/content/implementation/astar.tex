@@ -1,0 +1,26 @@
+\subsection{A* Search Algorithm}
+\subsubsection*{Concepts}
+\begin{itemize}
+    \item \textbf{Introduction:} A* Search is a graph search algorithm that combines the advantages of both Dijkstra's algorithm and greedy best-first search. It uses both the actual cost from the start node (g-value) and an estimated cost to the goal node (h-value) to guide the search.
+    \item \textbf{Traversal Method:} A* Search uses a priority queue ordered by the sum of g-value and h-value (f-value) to expand nodes with the lowest estimated total cost first.
+\end{itemize}
+
+\subsubsection*{Pseudo Code}
+function BEST-FIRST-SEARCH(problem, f) was mentioned in Section \ref{UCS_best_first_search}.
+\begin{verbatim}
+function A-STAR-SEARCH(problem) returns a solution node or failure
+    return BEST-FIRST-SEARCH(problem, g+h)
+\end{verbatim}
+
+\subsubsection*{Complexity}
+\begin{itemize}
+    \item \textbf{Time Complexity:} In the worst case, A* Search has a time complexity of \( O(b^d) \), where \( b \) is the branching factor of the graph and \( d \) is the depth of the optimal solution. However, with a good heuristic function, it often performs much better.
+    \item \textbf{Space Complexity:} A* Search has a space complexity of \( O(|V|) \), where \( V \) is the number of vertices, due to the priority queue and the visited set.
+\end{itemize}
+
+\subsubsection*{Properties}
+\begin{itemize}
+    \item \textbf{Completeness:} A* Search is complete if a solution exists, given that the branching factor is finite and all edge costs are non-negative.
+    \item \textbf{Optimality:} A* Search is optimal if the heuristic function \( h(s) \) is admissible (never overestimates the true cost to reach the goal) and consistent (satisfies the triangle inequality).
+    \item \textbf{Traversal Type:} A* Search explores nodes based on the f-value, which combines the g-value (cost from start to current node) and the h-value (estimated cost from current node to goal).
+\end{itemize}
