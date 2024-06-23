@@ -35,7 +35,6 @@ def BFS(matrix, start, end):
         for i in range(len(matrix[node])):
             if matrix[node][i] != 0 and i not in visited :
                 queue.append((i,node))
-                
                 if i == end:
                     path.append(i)
                     path.append(node)
@@ -43,8 +42,6 @@ def BFS(matrix, start, end):
                         path.append(visited[node])
                         node = visited[node]
                     path.reverse()
-                    print(visited)
-                    print(path)
                     return visited, path     
     return visited, path
 
@@ -77,8 +74,6 @@ def DFS(matrix, start, end):
     path.append(start)
     DFS_recursive(matrix, start, end, visited, path)   
     visited.pop(end)
-    print('visited',visited)
-    print('path',path)
     return visited, path
 
 def DFS_recursive(matrix, start, end, visited, path):
@@ -135,12 +130,7 @@ def UCS(matrix, start, end):
     queue = PriorityQueue()
     queue.put((0, (start, None)))
     while not queue.empty():
-        print('queue',queue.queue)
-        print('visited',visited)
-        
-
         cost, top = queue.get()
-        print('top',top)
         node = top[0]
         parent = top[1]
         if (node in visited):
@@ -152,8 +142,6 @@ def UCS(matrix, start, end):
                 node = visited[node]
                 path.append(node)
             path.reverse()
-            print('visited',visited)
-            print('path',path)
             return visited, path
         if node == end:
             break
@@ -161,6 +149,7 @@ def UCS(matrix, start, end):
             if matrix[node][i] != 0 and i not in visited:
                 queue.put((cost + matrix[node][i], (i, node)))
     return visited, path
+
 def GBFS(matrix, start, end):
     """
     Greedy Best First Search algorithm 
@@ -189,12 +178,7 @@ def GBFS(matrix, start, end):
     queue = PriorityQueue()
     queue.put((0, (start, None)))
     while not queue.empty():
-        print('queue',queue.queue)
-        print('visited',visited)
-        
-
         _, top = queue.get()
-        print('top',top)
         node = top[0]
         parent = top[1]
         if (node in visited):
@@ -206,8 +190,6 @@ def GBFS(matrix, start, end):
                 node = visited[node]
                 path.append(node)
             path.reverse()
-            print('visited',visited)
-            print('path',path)
             return visited, path
         if node == end:
             break
@@ -215,9 +197,11 @@ def GBFS(matrix, start, end):
             if matrix[node][i] != 0 and i not in visited:
                 queue.put((matrix[end][i], (i, node)))
     return visited, path
-def heuristic_Astar(pos, current, Goal):
+
+def euclidean_distance(pos, current, Goal):
     h = math.sqrt((pos[current][0] - pos[Goal][0])**2 + (pos[current][1] - pos[Goal][1])**2)
     return h  
+
 def Astar(matrix, start, end, pos):
     """
     A* Search algorithm
@@ -248,12 +232,7 @@ def Astar(matrix, start, end, pos):
     queue = PriorityQueue()
     queue.put((0, (start, None, 0)))
     while not queue.empty():
-        print('queue',queue.queue)
-        print('visited',visited)
-        
-
         _, top = queue.get()
-        print('top',top)
         node = top[0]
         parent = top[1]
         cost = top[2]
@@ -266,8 +245,6 @@ def Astar(matrix, start, end, pos):
                 node = visited[node]
                 path.append(node)
             path.reverse()
-            print('visited',visited)
-            print('path',path)
             while not queue.empty():
                 queue.get()
             return visited, path
@@ -275,41 +252,43 @@ def Astar(matrix, start, end, pos):
             break
         for i in range(len(matrix[node])):
             if matrix[node][i] != 0 and i not in visited:
-                queue.put((cost + matrix[node][i] + heuristic_Astar(pos,i,end), (i, node, cost + matrix[node][i])))
+                queue.put((cost + matrix[node][i] + euclidean_distance(pos,i,end), (i, node, cost + matrix[node][i])))
     return visited, path
+
 def DLS(matrix, start, end, depth, visited, path):
-        """
-        Depth Limited Search algorithm
-        Parameters:
-        ---------------------------
-        matrix: np array 
-            The graph's adjacency matrix
-        start: integer
-            starting node
-        end: integer
-            ending node
-        depth: integer
-            depth limit
-        visited
-            The dictionary contains visited nodes: each key is a visited node, 
-            each value is the key's adjacent node which is visited before key.
-        path: list
-            Founded path    
-        """
-        print(start)
-        if depth == 0:
-            return
-        n = len(matrix)
-        for i in range(n):
-            if matrix[start][i] != 0 and (i,depth-1) not in visited:
-                visited[(i,depth-1)] = start
-                path.append(i)
-                if i == end:
-                    return
-                DLS(matrix, i, end, depth-1, visited, path)
-                if (end,0) in visited:
-                    return
-                path.pop()
+    """
+    Depth Limited Search algorithm
+    Parameters:
+    ---------------------------
+    matrix: np array 
+        The graph's adjacency matrix
+    start: integer
+        starting node
+    end: integer
+        ending node
+    depth: integer
+        depth limit
+    visited
+        The dictionary contains visited nodes: each key is a visited node, 
+        each value is the key's adjacent node which is visited before key.
+    path: list
+        Founded path    
+    """
+    if depth == 0:
+        return
+    n = len(matrix)
+    for i in range(n):
+        if matrix[start][i] != 0 and (i,depth-1) not in visited:
+            visited[(i,depth-1)] = start
+            path.append(i)
+            if i == end:
+                return
+            DLS(matrix, i, end, depth-1, visited, path)
+            if (end,0) in visited:
+                return
+            path.pop()
+    return 
+
 def IDS(matrix, start, end):
     """
     Iterative Deepening Search algorithm
@@ -334,17 +313,16 @@ def IDS(matrix, start, end):
         v[(start,i)] = None
         path.append(start)
         DLS(matrix, start, end, i, v, path)
-        print('i',i)
-        print('visited',v)
-        print('path',path)
         if end in path:
             visited = {}
             for key in v:
                 visited[key[0]] = v[key]
             return visited, path
+    
 def manhattan_distance(pos, current, Goal):
     h = abs(pos[current][0] - pos[Goal][0]) + abs(pos[current][1] - pos[Goal][1])
     return h
+
 def Astar_with_manhattan_distance(matrix, start, end, pos):
     """
     A* Search algorithm
@@ -375,10 +353,8 @@ def Astar_with_manhattan_distance(matrix, start, end, pos):
     queue = PriorityQueue()
     queue.put((0, (start, None, 0)))
     while not queue.empty():
-        print('queue',queue.queue)
-        print('visited',visited)
         _, top = queue.get()
-        print('top',top)
+
         node = top[0]
         parent = top[1]
         cost = top[2]
@@ -391,8 +367,7 @@ def Astar_with_manhattan_distance(matrix, start, end, pos):
                 node = visited[node]
                 path.append(node)
             path.reverse()
-            print('visited',visited)
-            print('path',path)
+
             while not queue.empty():
                 queue.get()
             return visited, path

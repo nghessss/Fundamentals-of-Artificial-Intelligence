@@ -1,0 +1,40 @@
+Testcase 1:
++ BFS link: https://drive.google.com/file/d/1t1yCLftPaKbqObLz208FiKQsUhMBDSMc/view?usp=drive_link
++ DFS link: https://drive.google.com/file/d/1vy0wlgGrkOHcdWhvGG-9XtlnXk4qYahQ/view?usp=drive_link
++ UCS link: https://drive.google.com/file/d/1yU465f8s0X0ih0UrROF2cNAWf2Zks4qA/view?usp=drive_link
++ GBFS link: https://drive.google.com/file/d/1iCEpHL8_7Qwjn6oqggufwDCuxuShMSaO/view?usp=drive_link
++ A Star with Euclide Distance link: https://drive.google.com/file/d/164I1LNUEXIl3LH7REcaP3DS6PjVzbmB5/view?usp=drive_link
++ A Star with Manhattan Distance link: https://drive.google.com/file/d/1JwXIm42HC2XWfXLExzDpBgZoCDqItXNd/view?usp=drive_link
++ IDS link: https://drive.google.com/file/d/1kmOdv3DVCCfGIdW9IA4xWLjPmHsR6WQX/view?usp=drive_link
+Testcase 2
++ BFS link: https://drive.google.com/file/d/1P8PNWz923yZ7N5hvmc7wP1bcadEovzLk/view?usp=drive_link
++ DFS link: https://drive.google.com/file/d/1_1DEkZUMkViYR83HhEoo44GmaVM8MaBi/view?usp=drive_link
++ UCS link: https://drive.google.com/file/d/1RfiMObKoFv_JYAMnAqSrXIQQF3Agu1lM/view?usp=drive_link
++ GBFS link: https://drive.google.com/file/d/1OdXrL3hmZ-rZTQWlcjY1ZsaUBW_BPMl4/view?usp=drive_link
++ A Star with Euclide Distance link: https://drive.google.com/file/d/16v51DOM8Wal4at8W_OSVfkEay4jmx1uy/view?usp=drive_link
++ A Star with Manhattan Distance link: https://drive.google.com/file/d/16gXT2Pijrwwln078eQU4aFv16AC8bMxJ/view?usp=drive_link
++ IDS link: https://drive.google.com/file/d/1MTEfZzf4vp_y7_zBeHLAwJENhkOfrqkn/view?usp=drive_link
+Testcase 3
++ BFS link: https://drive.google.com/file/d/1cEHOUwqZjGeaag4s6sthqE477cOvsPrU/view?usp=drive_link
++ DFS link: https://drive.google.com/file/d/1oAfx0UUaesXWarM0cAMaMpcFV3xi12jI/view?usp=drive_link
++ UCS link: https://drive.google.com/file/d/1ZW5f8aVIkb3U-__w0xTs-ICp270zcLY-/view?usp=drive_link
++ GBFS link: https://drive.google.com/file/d/1wCR86_8PT0lYkQAIW93IdfcT_cpOggy1/view?usp=drive_link
++ A Star with Euclide Distance link: https://drive.google.com/file/d/1URH4SANI-cIx-ftXjbCFd8tDELia83QT/view?usp=drive_link
++ A Star with Manhattan Distance link: https://drive.google.com/file/d/1HUCzl8JRxDa1eoLmuia4GXw7h0zDkSpu/view?usp=drive_link
++ IDS link: https://drive.google.com/file/d/1sTzJQAwIEXV67GVXlokFN1dI8PswEtmK/view?usp=drive_link
+Testcase 4
++ BFS link: https://drive.google.com/file/d/1b6t4ARuvn7kjG8ZyNyjaENz13A5V6ZcF/view?usp=drive_link
++ DFS link: https://drive.google.com/file/d/1HG5niTqY4Ae0k5VVDqXizEjva2YjmqPD/view?usp=drive_link
++ UCS link: https://drive.google.com/file/d/1iwn_sL6awOMQzEdwVayi8sf20e2Pr1lp/view?usp=drive_link
++ GBFS link: https://drive.google.com/file/d/1j_lTKdsW8RiNRR0tYiowCs1X7cq7WPA7/view?usp=drive_link
++ A Star with Euclide Distance link: https://drive.google.com/file/d/1TM489JzUQt6CmbZkOC6AHYmpVUSCaLfH/view?usp=sharing
++ A Star with Manhattan Distance link: https://drive.google.com/file/d/1q_riK9hkmQL8ulEcqGt_Ve6hEcz8T1dM/view?usp=drive_link
++ IDS link: https://drive.google.com/file/d/1jt8e79elLZ6ZPMKyfplOSxmMoq3R7MOH/view?usp=drive_link
+Testcase 5
++ BFS link: https://drive.google.com/file/d/1vz-Qo633yCmfaRWs7jP7ZwcYOvfIZtgl/view?usp=drive_link
++ DFS link: https://drive.google.com/file/d/1-jYw2Eu3BioovD5T90jir_SkSffXD0yT/view?usp=drive_link
++ UCS link: https://drive.google.com/file/d/1Qn1_HfS2CvVh_XIweUoqfFydQbN62oKX/view?usp=drive_link
++ GBFS link: https://drive.google.com/file/d/10UuDsbf5JMSqlVi0L8tKbt8N1F6GNcA6/view?usp=drive_link
++ A Star with Euclide Distance link: https://drive.google.com/file/d/1dZpJ1PSPoO6cl7ODcreFClEMs4OSe9K9/view?usp=drive_link
++ A Star with Manhattan Distance link: https://drive.google.com/file/d/197TgxV_Te7e7XX5VyMVmukUrd1BdiveG/view?usp=drive_link
++ IDS link: https://drive.google.com/file/d/1pFIMlSafv0zEA6x7DiPy3rL3SAoWdCBO/view?usp=drive_link
