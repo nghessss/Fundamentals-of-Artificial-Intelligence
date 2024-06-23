@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.16)  23 JUN 2024 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.16)  23 JUN 2024 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -598,36 +598,60 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen281
 \titlewidthlast=\dimen282
 \titlewidthfirst=\dimen283
+) (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen284
+\captionmargin=\dimen285
+\caption@leftmargin=\dimen286
+\caption@rightmargin=\dimen287
+\caption@width=\dimen288
+\caption@indent=\dimen289
+\caption@parindent=\dimen290
+\caption@hangindent=\dimen291
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count349
+\c@continuedfloat=\count350
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+) (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count351
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count352
 ) (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks54
-\c@algorithm=\count349
+\c@algorithm=\count353
 ) (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
  (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count350
-\c@ALG@rem=\count351
-\c@ALG@nested=\count352
+\c@ALG@line=\count354
+\c@ALG@rem=\count355
+\c@ALG@nested=\count356
 \ALG@tlm=\skip69
 \ALG@thistlm=\skip70
-\c@ALG@Lnr=\count353
-\c@ALG@blocknr=\count354
-\c@ALG@storecount=\count355
-\c@ALG@tmpcounter=\count356
+\c@ALG@Lnr=\count357
+\c@ALG@blocknr=\count358
+\c@ALG@storecount=\count359
+\c@ALG@tmpcounter=\count360
 \ALG@tmplength=\skip71
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2024/05/23 v2.6c Tabular extension package (FMi)
-\col@sep=\dimen284
+\col@sep=\dimen292
 \ar@mcellbox=\box91
-\extrarowheight=\dimen285
+\extrarowheight=\dimen293
 \NC@list=\toks55
 \extratabsurround=\skip72
 \backup@length=\skip73
@@ -645,55 +669,55 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks56
-\@arclen=\dimen286
-\@arcrad=\dimen287
-\pIIe@tempdima=\dimen288
-\pIIe@tempdimb=\dimen289
-\pIIe@tempdimc=\dimen290
-\pIIe@tempdimd=\dimen291
-\pIIe@tempdime=\dimen292
-\pIIe@tempdimf=\dimen293
+\@arclen=\dimen294
+\@arcrad=\dimen295
+\pIIe@tempdima=\dimen296
+\pIIe@tempdimb=\dimen297
+\pIIe@tempdimc=\dimen298
+\pIIe@tempdimd=\dimen299
+\pIIe@tempdime=\dimen300
+\pIIe@tempdimf=\dimen301
 ) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count357
-\calc@Bcount=\count358
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
+\calc@Acount=\count361
+\calc@Bcount=\count362
+\calc@Adimen=\dimen302
+\calc@Bdimen=\dimen303
 \calc@Askip=\skip74
 \calc@Bskip=\skip75
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count359
+\calc@Ccount=\count363
 \calc@Cskip=\skip76
 )
 \diagbox@boxa=\box93
 \diagbox@boxb=\box94
 \diagbox@boxm=\box95
-\diagbox@wd=\dimen296
-\diagbox@ht=\dimen297
-\diagbox@insepl=\dimen298
-\diagbox@insepr=\dimen299
-\diagbox@outsepl=\dimen300
-\diagbox@outsepr=\dimen301
+\diagbox@wd=\dimen304
+\diagbox@ht=\dimen305
+\diagbox@insepl=\dimen306
+\diagbox@insepr=\dimen307
+\diagbox@outsepl=\dimen308
+\diagbox@outsepr=\dimen309
 ) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count360
+\lst@mode=\count364
 \lst@gtempboxa=\box96
 \lst@token=\toks57
-\lst@length=\count361
-\lst@currlwidth=\dimen302
-\lst@column=\count362
-\lst@pos=\count363
-\lst@lostspace=\dimen303
-\lst@width=\dimen304
-\lst@newlines=\count364
-\lst@lineno=\count365
-\lst@maxwidth=\dimen305
+\lst@length=\count365
+\lst@currlwidth=\dimen310
+\lst@column=\count366
+\lst@pos=\count367
+\lst@lostspace=\dimen311
+\lst@width=\dimen312
+\lst@newlines=\count368
+\lst@lineno=\count369
+\lst@maxwidth=\dimen313
  (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 ) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count366
-\lst@skipnumbers=\count367
+\c@lstnumber=\count370
+\lst@skipnumbers=\count371
 \lst@framebox=\box97
 ) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/05/25 1.10b listings configuration
@@ -703,53 +727,53 @@ Package: listings 2024/05/25 1.10b (Carsten Heinz)
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count368
+\lrq@indent=\count372
  (C:\Users\VõThànhNghĩa\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count369
-\c@listtotal=\count370
-\c@listcount=\count371
-\c@liststart=\count372
-\c@liststop=\count373
-\c@citecount=\count374
-\c@citetotal=\count375
-\c@multicitecount=\count376
-\c@multicitetotal=\count377
-\c@instcount=\count378
-\c@maxnames=\count379
-\c@minnames=\count380
-\c@maxitems=\count381
-\c@minitems=\count382
-\c@citecounter=\count383
-\c@maxcitecounter=\count384
-\c@savedcitecounter=\count385
-\c@uniquelist=\count386
-\c@uniquename=\count387
-\c@refsection=\count388
-\c@refsegment=\count389
-\c@maxextratitle=\count390
-\c@maxextratitleyear=\count391
-\c@maxextraname=\count392
-\c@maxextradate=\count393
-\c@maxextraalpha=\count394
-\c@abbrvpenalty=\count395
-\c@highnamepenalty=\count396
-\c@lownamepenalty=\count397
-\c@maxparens=\count398
-\c@parenlevel=\count399
-\blx@tempcnta=\count400
-\blx@tempcntb=\count401
-\blx@tempcntc=\count402
-\c@blx@maxsection=\count403
-\blx@maxsegment@0=\count404
-\blx@notetype=\count405
-\blx@parenlevel@text=\count406
-\blx@parenlevel@foot=\count407
-\blx@sectionciteorder@0=\count408
-\blx@sectionciteorderinternal@0=\count409
-\blx@entrysetcounter=\count410
-\blx@biblioinstance=\count411
+\c@tabx@nest=\count373
+\c@listtotal=\count374
+\c@listcount=\count375
+\c@liststart=\count376
+\c@liststop=\count377
+\c@citecount=\count378
+\c@citetotal=\count379
+\c@multicitecount=\count380
+\c@multicitetotal=\count381
+\c@instcount=\count382
+\c@maxnames=\count383
+\c@minnames=\count384
+\c@maxitems=\count385
+\c@minitems=\count386
+\c@citecounter=\count387
+\c@maxcitecounter=\count388
+\c@savedcitecounter=\count389
+\c@uniquelist=\count390
+\c@uniquename=\count391
+\c@refsection=\count392
+\c@refsegment=\count393
+\c@maxextratitle=\count394
+\c@maxextratitleyear=\count395
+\c@maxextraname=\count396
+\c@maxextradate=\count397
+\c@maxextraalpha=\count398
+\c@abbrvpenalty=\count399
+\c@highnamepenalty=\count400
+\c@lownamepenalty=\count401
+\c@maxparens=\count402
+\c@parenlevel=\count403
+\blx@tempcnta=\count404
+\blx@tempcntb=\count405
+\blx@tempcntc=\count406
+\c@blx@maxsection=\count407
+\blx@maxsegment@0=\count408
+\blx@notetype=\count409
+\blx@parenlevel@text=\count410
+\blx@parenlevel@foot=\count411
+\blx@sectionciteorder@0=\count412
+\blx@sectionciteorderinternal@0=\count413
+\blx@entrysetcounter=\count414
+\blx@biblioinstance=\count415
 \labelnumberwidth=\skip77
 \labelalphawidth=\skip78
 \biblabelsep=\skip79
@@ -761,9 +785,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language79
-\c@mincomprange=\count412
-\c@maxcomprange=\count413
-\c@mincompwidth=\count414
+\c@mincomprange=\count416
+\c@maxcomprange=\count417
+\c@mincompwidth=\count418
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -771,74 +795,74 @@ File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count415
-\c@savedafterword=\count416
-\c@annotator=\count417
-\c@savedannotator=\count418
-\c@author=\count419
-\c@savedauthor=\count420
-\c@bookauthor=\count421
-\c@savedbookauthor=\count422
-\c@commentator=\count423
-\c@savedcommentator=\count424
-\c@editor=\count425
-\c@savededitor=\count426
-\c@editora=\count427
-\c@savededitora=\count428
-\c@editorb=\count429
-\c@savededitorb=\count430
-\c@editorc=\count431
-\c@savededitorc=\count432
-\c@foreword=\count433
-\c@savedforeword=\count434
-\c@holder=\count435
-\c@savedholder=\count436
-\c@introduction=\count437
-\c@savedintroduction=\count438
-\c@namea=\count439
-\c@savednamea=\count440
-\c@nameb=\count441
-\c@savednameb=\count442
-\c@namec=\count443
-\c@savednamec=\count444
-\c@translator=\count445
-\c@savedtranslator=\count446
-\c@shortauthor=\count447
-\c@savedshortauthor=\count448
-\c@shorteditor=\count449
-\c@savedshorteditor=\count450
-\c@labelname=\count451
-\c@savedlabelname=\count452
-\c@institution=\count453
-\c@savedinstitution=\count454
-\c@lista=\count455
-\c@savedlista=\count456
-\c@listb=\count457
-\c@savedlistb=\count458
-\c@listc=\count459
-\c@savedlistc=\count460
-\c@listd=\count461
-\c@savedlistd=\count462
-\c@liste=\count463
-\c@savedliste=\count464
-\c@listf=\count465
-\c@savedlistf=\count466
-\c@location=\count467
-\c@savedlocation=\count468
-\c@organization=\count469
-\c@savedorganization=\count470
-\c@origlocation=\count471
-\c@savedoriglocation=\count472
-\c@origpublisher=\count473
-\c@savedorigpublisher=\count474
-\c@publisher=\count475
-\c@savedpublisher=\count476
-\c@language=\count477
-\c@savedlanguage=\count478
-\c@origlanguage=\count479
-\c@savedoriglanguage=\count480
-\c@pageref=\count481
-\c@savedpageref=\count482
+\c@afterword=\count419
+\c@savedafterword=\count420
+\c@annotator=\count421
+\c@savedannotator=\count422
+\c@author=\count423
+\c@savedauthor=\count424
+\c@bookauthor=\count425
+\c@savedbookauthor=\count426
+\c@commentator=\count427
+\c@savedcommentator=\count428
+\c@editor=\count429
+\c@savededitor=\count430
+\c@editora=\count431
+\c@savededitora=\count432
+\c@editorb=\count433
+\c@savededitorb=\count434
+\c@editorc=\count435
+\c@savededitorc=\count436
+\c@foreword=\count437
+\c@savedforeword=\count438
+\c@holder=\count439
+\c@savedholder=\count440
+\c@introduction=\count441
+\c@savedintroduction=\count442
+\c@namea=\count443
+\c@savednamea=\count444
+\c@nameb=\count445
+\c@savednameb=\count446
+\c@namec=\count447
+\c@savednamec=\count448
+\c@translator=\count449
+\c@savedtranslator=\count450
+\c@shortauthor=\count451
+\c@savedshortauthor=\count452
+\c@shorteditor=\count453
+\c@savedshorteditor=\count454
+\c@labelname=\count455
+\c@savedlabelname=\count456
+\c@institution=\count457
+\c@savedinstitution=\count458
+\c@lista=\count459
+\c@savedlista=\count460
+\c@listb=\count461
+\c@savedlistb=\count462
+\c@listc=\count463
+\c@savedlistc=\count464
+\c@listd=\count465
+\c@savedlistd=\count466
+\c@liste=\count467
+\c@savedliste=\count468
+\c@listf=\count469
+\c@savedlistf=\count470
+\c@location=\count471
+\c@savedlocation=\count472
+\c@organization=\count473
+\c@savedorganization=\count474
+\c@origlocation=\count475
+\c@savedoriglocation=\count476
+\c@origpublisher=\count477
+\c@savedorigpublisher=\count478
+\c@publisher=\count479
+\c@savedpublisher=\count480
+\c@language=\count481
+\c@savedlanguage=\count482
+\c@origlanguage=\count483
+\c@savedoriglanguage=\count484
+\c@pageref=\count485
+\c@savedpageref=\count486
 \shorthandwidth=\skip85
 \shortjournalwidth=\skip86
 \shortserieswidth=\skip87
@@ -862,19 +886,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count483
-\c@textcitetotal=\count484
-\c@textcitemaxnames=\count485
-\c@biburlbigbreakpenalty=\count486
-\c@biburlbreakpenalty=\count487
-\c@biburlnumpenalty=\count488
-\c@biburlucpenalty=\count489
-\c@biburllcpenalty=\count490
+\c@textcitecount=\count487
+\c@textcitetotal=\count488
+\c@textcitemaxnames=\count489
+\c@biburlbigbreakpenalty=\count490
+\c@biburlbreakpenalty=\count491
+\c@biburlnumpenalty=\count492
+\c@biburlucpenalty=\count493
+\c@biburllcpenalty=\count494
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count491
+\c@smartand=\count495
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -884,8 +908,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count492
-\c@bbx:relatedtotal=\count493
+\c@bbx:relatedcount=\count496
+\c@bbx:relatedtotal=\count497
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -917,41 +941,41 @@ Package biblatex Info: ... and expl3
  (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-\@quotelevel=\count494
-\@quotereset=\count495
+\@quotelevel=\count498
+\@quotereset=\count499
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count496
-\scratchdimen=\dimen306
+\scratchcounter=\count500
+\scratchdimen=\dimen314
 \scratchbox=\box98
-\nofMPsegments=\count497
-\nofMParguments=\count498
+\nofMPsegments=\count501
+\nofMParguments=\count502
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count499
-\MPscratchDim=\dimen307
-\MPnumerator=\count500
-\makeMPintoPDFobject=\count501
+\MPscratchCnt=\count503
+\MPscratchDim=\dimen315
+\MPnumerator=\count504
+\makeMPintoPDFobject=\count505
 \everyMPtoPDFconversion=\toks59
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -959,7 +983,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 102.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -999,7 +1023,10 @@ Package hyperref Info: Link coloring ON on input line 100.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count502
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count506
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -1014,10 +1041,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 100.
-Package biblatex Info: Reference segment=0 on input line 100.
+Package biblatex Info: Reference section=0 on input line 102.
+Package biblatex Info: Reference segment=0 on input line 102.
 (content/title.tex
-<content/hcmus-logo.png, id=74, 597.9138pt x 597.9138pt>
+<content/hcmus-logo.png, id=110, 597.9138pt x 597.9138pt>
 File: content/hcmus-logo.png Graphic file (type png)
 <use content/hcmus-logo.png>
 Package pdftex.def Info: content/hcmus-logo.png  used on input line 9.
@@ -1044,33 +1071,412 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.105 \input
-            {content/info_page.tex} [1] (content/info_page.tex) (content/intro.tex)
+l.107 \input
+            {content/info_page.tex} [1] (content/info_page.tex) (content/intro.tex) (content/result.tex
 
-[2] (content/result.tex)
+[2]
+<testcase/1.PNG, id=157, 342.5297pt x 314.67563pt>
+File: testcase/1.PNG Graphic file (type png)
+<use testcase/1.PNG>
+Package pdftex.def Info: testcase/1.PNG  used on input line 21.
+(pdftex.def)             Requested size: 252.94499pt x 232.38095pt.
 
-[3] (content/implementation.tex (content/implementation/BFS.tex
+
+[3 <./testcase/1.PNG>]
+<result/testcase1/dfs.png, id=166, 602.85225pt x 626.34pt>
+File: result/testcase1/dfs.png Graphic file (type png)
+<use result/testcase1/dfs.png>
+Package pdftex.def Info: result/testcase1/dfs.png  used on input line 51.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+<result/testcase1/bfs.png, id=167, 602.85225pt x 626.34pt>
+File: result/testcase1/bfs.png Graphic file (type png)
+<use result/testcase1/bfs.png>
+Package pdftex.def Info: result/testcase1/bfs.png  used on input line 56.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase1/ucs.png, id=168, 602.85225pt x 626.34pt>
+File: result/testcase1/ucs.png Graphic file (type png)
+<use result/testcase1/ucs.png>
+Package pdftex.def Info: result/testcase1/ucs.png  used on input line 61.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase1/greedy.png, id=169, 602.85225pt x 626.34pt>
+File: result/testcase1/greedy.png Graphic file (type png)
+<use result/testcase1/greedy.png>
+Package pdftex.def Info: result/testcase1/greedy.png  used on input line 66.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase1/astar.png, id=170, 602.85225pt x 626.34pt>
+File: result/testcase1/astar.png Graphic file (type png)
+<use result/testcase1/astar.png>
+Package pdftex.def Info: result/testcase1/astar.png  used on input line 71.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase1/ids.png, id=171, 602.85225pt x 626.34pt>
+File: result/testcase1/ids.png Graphic file (type png)
+<use result/testcase1/ids.png>
+Package pdftex.def Info: result/testcase1/ids.png  used on input line 76.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase1/astar_2.png, id=172, 602.85225pt x 626.34pt>
+File: result/testcase1/astar_2.png Graphic file (type png)
+<use result/testcase1/astar_2.png>
+Package pdftex.def Info: result/testcase1/astar_2.png  used on input line 81.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[4 <./result/testcase1/dfs.png>]
+
+[5 <./result/testcase1/bfs.png> <./result/testcase1/ucs.png>]
+
+[6 <./result/testcase1/greedy.png> <./result/testcase1/astar.png>]
+
+[7 <./result/testcase1/ids.png> <./result/testcase1/astar_2.png>]
+<testcase/2.PNG, id=204, 297.36093pt x 316.18124pt>
+File: testcase/2.PNG Graphic file (type png)
+<use testcase/2.PNG>
+Package pdftex.def Info: testcase/2.PNG  used on input line 89.
+(pdftex.def)             Requested size: 252.94499pt x 268.95313pt.
+<result/testcase2/dfs.png, id=205, 602.85225pt x 626.34pt>
+File: result/testcase2/dfs.png Graphic file (type png)
+<use result/testcase2/dfs.png>
+Package pdftex.def Info: result/testcase2/dfs.png  used on input line 119.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/bfs.png, id=206, 602.85225pt x 626.34pt>
+File: result/testcase2/bfs.png Graphic file (type png)
+<use result/testcase2/bfs.png>
+Package pdftex.def Info: result/testcase2/bfs.png  used on input line 124.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/ucs.png, id=207, 602.85225pt x 626.34pt>
+File: result/testcase2/ucs.png Graphic file (type png)
+<use result/testcase2/ucs.png>
+Package pdftex.def Info: result/testcase2/ucs.png  used on input line 129.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/greedy.png, id=208, 602.85225pt x 626.34pt>
+File: result/testcase2/greedy.png Graphic file (type png)
+<use result/testcase2/greedy.png>
+Package pdftex.def Info: result/testcase2/greedy.png  used on input line 134.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/astar.png, id=209, 602.85225pt x 626.34pt>
+File: result/testcase2/astar.png Graphic file (type png)
+<use result/testcase2/astar.png>
+Package pdftex.def Info: result/testcase2/astar.png  used on input line 139.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/ids.png, id=210, 602.85225pt x 626.34pt>
+File: result/testcase2/ids.png Graphic file (type png)
+<use result/testcase2/ids.png>
+Package pdftex.def Info: result/testcase2/ids.png  used on input line 144.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase2/astar2.png, id=211, 602.85225pt x 626.34pt>
+File: result/testcase2/astar2.png Graphic file (type png)
+<use result/testcase2/astar2.png>
+Package pdftex.def Info: result/testcase2/astar2.png  used on input line 149.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[8
+
+ <./testcase/2.PNG>]
+
+[9 <./result/testcase2/dfs.png> <./result/testcase2/bfs.png>]
+
+[10 <./result/testcase2/ucs.png> <./result/testcase2/greedy.png>]
+
+[11 <./result/testcase2/astar.png> <./result/testcase2/ids.png>]
+
+[12 <./result/testcase2/astar2.png>]
+<testcase/3.PNG, id=249, 335.00156pt x 284.56313pt>
+File: testcase/3.PNG Graphic file (type png)
+<use testcase/3.PNG>
+Package pdftex.def Info: testcase/3.PNG  used on input line 157.
+(pdftex.def)             Requested size: 252.94499pt x 214.85904pt.
+<result/testcase3/dfs.png, id=250, 602.85225pt x 626.34pt>
+File: result/testcase3/dfs.png Graphic file (type png)
+<use result/testcase3/dfs.png>
+Package pdftex.def Info: result/testcase3/dfs.png  used on input line 188.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/bfs.png, id=251, 602.85225pt x 626.34pt>
+File: result/testcase3/bfs.png Graphic file (type png)
+<use result/testcase3/bfs.png>
+Package pdftex.def Info: result/testcase3/bfs.png  used on input line 193.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/ucs.png, id=252, 602.85225pt x 626.34pt>
+File: result/testcase3/ucs.png Graphic file (type png)
+<use result/testcase3/ucs.png>
+Package pdftex.def Info: result/testcase3/ucs.png  used on input line 198.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/greedy.png, id=253, 602.85225pt x 626.34pt>
+File: result/testcase3/greedy.png Graphic file (type png)
+<use result/testcase3/greedy.png>
+Package pdftex.def Info: result/testcase3/greedy.png  used on input line 203.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/astar.png, id=254, 602.85225pt x 626.34pt>
+File: result/testcase3/astar.png Graphic file (type png)
+<use result/testcase3/astar.png>
+Package pdftex.def Info: result/testcase3/astar.png  used on input line 208.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/ids.png, id=255, 602.85225pt x 626.34pt>
+File: result/testcase3/ids.png Graphic file (type png)
+<use result/testcase3/ids.png>
+Package pdftex.def Info: result/testcase3/ids.png  used on input line 213.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase3/astar2.png, id=256, 602.85225pt x 626.34pt>
+File: result/testcase3/astar2.png Graphic file (type png)
+<use result/testcase3/astar2.png>
+Package pdftex.def Info: result/testcase3/astar2.png  used on input line 218.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[13
+
+ <./testcase/3.PNG>]
+
+[14 <./result/testcase3/dfs.png> <./result/testcase3/bfs.png>]
+
+[15 <./result/testcase3/ucs.png> <./result/testcase3/greedy.png>]
+
+[16 <./result/testcase3/astar.png> <./result/testcase3/ids.png>]
+
+[17 <./result/testcase3/astar2.png>]
+<testcase/4.PNG, id=293, 320.69812pt x 320.69812pt>
+File: testcase/4.PNG Graphic file (type png)
+<use testcase/4.PNG>
+Package pdftex.def Info: testcase/4.PNG  used on input line 226.
+(pdftex.def)             Requested size: 252.94499pt x 252.95236pt.
+<result/testcase4/dfs.png, id=294, 602.85225pt x 626.34pt>
+File: result/testcase4/dfs.png Graphic file (type png)
+<use result/testcase4/dfs.png>
+Package pdftex.def Info: result/testcase4/dfs.png  used on input line 257.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/bfs.png, id=295, 602.85225pt x 626.34pt>
+File: result/testcase4/bfs.png Graphic file (type png)
+<use result/testcase4/bfs.png>
+Package pdftex.def Info: result/testcase4/bfs.png  used on input line 262.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/ucs.png, id=296, 602.85225pt x 626.34pt>
+File: result/testcase4/ucs.png Graphic file (type png)
+<use result/testcase4/ucs.png>
+Package pdftex.def Info: result/testcase4/ucs.png  used on input line 267.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/greedy.png, id=297, 602.85225pt x 626.34pt>
+File: result/testcase4/greedy.png Graphic file (type png)
+<use result/testcase4/greedy.png>
+Package pdftex.def Info: result/testcase4/greedy.png  used on input line 272.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/astar.png, id=298, 602.85225pt x 626.34pt>
+File: result/testcase4/astar.png Graphic file (type png)
+<use result/testcase4/astar.png>
+Package pdftex.def Info: result/testcase4/astar.png  used on input line 277.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/ids.png, id=299, 602.85225pt x 626.34pt>
+File: result/testcase4/ids.png Graphic file (type png)
+<use result/testcase4/ids.png>
+Package pdftex.def Info: result/testcase4/ids.png  used on input line 282.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase4/astar2.png, id=300, 602.85225pt x 626.34pt>
+File: result/testcase4/astar2.png Graphic file (type png)
+<use result/testcase4/astar2.png>
+Package pdftex.def Info: result/testcase4/astar2.png  used on input line 287.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[18
+
+ <./testcase/4.PNG>]
+
+[19 <./result/testcase4/dfs.png> <./result/testcase4/bfs.png>]
+
+[20 <./result/testcase4/ucs.png> <./result/testcase4/greedy.png>]
+
+[21 <./result/testcase4/astar.png> <./result/testcase4/ids.png>]
+
+[22 <./result/testcase4/astar2.png>]
+<testcase/5.PNG, id=338, 323.70938pt x 314.67563pt>
+File: testcase/5.PNG Graphic file (type png)
+<use testcase/5.PNG>
+Package pdftex.def Info: testcase/5.PNG  used on input line 295.
+(pdftex.def)             Requested size: 252.94499pt x 245.88774pt.
+<result/testcase5/dfs.png, id=339, 602.85225pt x 626.34pt>
+File: result/testcase5/dfs.png Graphic file (type png)
+<use result/testcase5/dfs.png>
+Package pdftex.def Info: result/testcase5/dfs.png  used on input line 326.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/bfs.png, id=340, 602.85225pt x 626.34pt>
+File: result/testcase5/bfs.png Graphic file (type png)
+<use result/testcase5/bfs.png>
+Package pdftex.def Info: result/testcase5/bfs.png  used on input line 331.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/ucs.png, id=341, 602.85225pt x 626.34pt>
+File: result/testcase5/ucs.png Graphic file (type png)
+<use result/testcase5/ucs.png>
+Package pdftex.def Info: result/testcase5/ucs.png  used on input line 336.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/greedy.png, id=342, 602.85225pt x 626.34pt>
+File: result/testcase5/greedy.png Graphic file (type png)
+<use result/testcase5/greedy.png>
+Package pdftex.def Info: result/testcase5/greedy.png  used on input line 341.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/astar.png, id=343, 602.85225pt x 626.34pt>
+File: result/testcase5/astar.png Graphic file (type png)
+<use result/testcase5/astar.png>
+Package pdftex.def Info: result/testcase5/astar.png  used on input line 346.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/ids.png, id=344, 602.85225pt x 626.34pt>
+File: result/testcase5/ids.png Graphic file (type png)
+<use result/testcase5/ids.png>
+Package pdftex.def Info: result/testcase5/ids.png  used on input line 351.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<result/testcase5/astar2.png, id=345, 602.85225pt x 626.34pt>
+File: result/testcase5/astar2.png Graphic file (type png)
+<use result/testcase5/astar2.png>
+Package pdftex.def Info: result/testcase5/astar2.png  used on input line 356.
+(pdftex.def)             Requested size: 252.94499pt x 262.80295pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[23
+
+ <./testcase/5.PNG>]
+
+[24 <./result/testcase5/dfs.png> <./result/testcase5/bfs.png>]
+
+[25 <./result/testcase5/ucs.png> <./result/testcase5/greedy.png>]
+
+[26 <./result/testcase5/astar.png> <./result/testcase5/ids.png>]
+
+[27 <./result/testcase5/astar2.png>]) (content/implementation.tex (content/implementation/BFS.tex
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 24.
  (C:\Program Files\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )) (content/implementation/DFS.tex
 
-[4]) (content/implementation/UCS.tex
+[28
 
-[5]
+]) (content/implementation/UCS.tex
+
+[29]
 Overfull \hbox (0.45874pt too wide) in paragraph at lines 30--30
 []    \OT1/cmtt/m/n/12 reached\TS1/cmtt/m/n/12 ^^X\OT1/cmtt/m/n/12 a lookup table, with one entry with key problem.INITIAL and value node[] 
  []
 
 
 
-[6]) (content/implementation/greedy.tex) (content/implementation/astar.tex
+[30]) (content/implementation/greedy.tex
+<Greedy_requirement.PNG, id=398, 296.60812pt x 25.59563pt>
+File: Greedy_requirement.PNG Graphic file (type png)
+<use Greedy_requirement.PNG>
+Package pdftex.def Info: Greedy_requirement.PNG  used on input line 13.
+(pdftex.def)             Requested size: 296.60739pt x 25.59555pt.
 
-[7]) (content/implementation/IDS.tex
 
-[8]))
+[31 <./Greedy_requirement.PNG>]) (content/implementation/astar.tex
 
-[9] (content/comparison.tex
+[32]) (content/implementation/IDS.tex
+
+[33]))
+
+[34] (content/comparison.tex
 Underfull \hbox (badness 1005) in paragraph at lines 13--13
 \OT1/cmr/m/n/12 i-mum path cost ($\OML/cmm/m/it/12 g\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )$) among
  []
@@ -1085,31 +1491,44 @@ Overfull \hbox (40.69855pt too wide) in paragraph at lines 5--29
  [][] 
  []
 
+) (content/ref.tex
+
+LaTeX Warning: Empty bibliography on input line 5.
+
 )
 
-[10] (main.aux)
+[35] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A93F990EF9AEFF4AAE2273EB203D4507;3387.
+(rerunfilecheck)             Checksum: 61EE58A8153E90135ABBEEE807FB530C;4586.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40520 strings out of 473919
- 862379 string characters out of 5736738
+ 42295 strings out of 473919
+ 899926 string characters out of 5736738
  1939908 words of memory out of 5000000
- 62777 multiletter control sequences out of 15000+600000
+ 64467 multiletter control sequences out of 15000+600000
  566891 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,1691b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\VõThànhNghĩa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\VõThànhNghĩa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (11 pages, 344265 bytes).
+ <C:\Users\VõThànhNghĩa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1200.pk> <C:\Users\VõThànhNghĩa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (36 pages, 3532426 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 431 words of extra memory for PDF output out of 10000 (max. 10000000)
 

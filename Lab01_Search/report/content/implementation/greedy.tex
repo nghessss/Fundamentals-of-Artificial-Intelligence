@@ -4,6 +4,21 @@
     \item \textbf{Introduction:} Greedy Best First Search (GBFS) is a graph search algorithm that expands the most promising node chosen according to a heuristic function. It does not guarantee optimal solutions but is often efficient in practice for certain types of problems.
     \item \textbf{Traversal Method:} GBFS uses a priority queue ordered by the heuristic value to expand nodes with the most promising estimated cost.
 \end{itemize}
+\subsubsection{Heuristic function note}
+
+Due to the requirements of this project, the lecturer specified that the heuristic function should be the edge weight, which initially caused some confusion for me.
+
+\begin{figure}[h]
+\centering
+\includegraphics[]{Greedy_requirement.PNG}
+\label{fig:Greedy_requirement}
+\end{figure}
+
+Therefore, I have decided to use the edge weight as the heuristic function, representing the direct distance between the current node and the goal node.
+
+The heuristic function is defined as follows:
+\[h[node] = matrix[goal][node]\]
+
 
 \subsubsection*{Pseudo Code}
 function BEST-FIRST-SEARCH(problem, f) was mentioned in Section \ref{UCS_best_first_search}.

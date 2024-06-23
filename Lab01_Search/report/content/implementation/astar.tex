@@ -4,7 +4,13 @@
     \item \textbf{Introduction:} A* Search is a graph search algorithm that combines the advantages of both Dijkstra's algorithm and greedy best-first search. It uses both the actual cost from the start node (g-value) and an estimated cost to the goal node (h-value) to guide the search.
     \item \textbf{Traversal Method:} A* Search uses a priority queue ordered by the sum of g-value and h-value (f-value) to expand nodes with the lowest estimated total cost first.
 \end{itemize}
+\subsubsection{Heuristic function note}
+I code 2 version of Astar algorithm, one with the heuristic function as the Euclidean distance, and the other with the heuristic function as the Manhattan distance. 
 
+The Euclidean distance is calculated as follows:
+\[h(node) = \sqrt{(goal_x - node_x)^2 + (goal_y - node_y)^2}\]
+The Manhattan distance is calculated as follows:
+\[h(node) = |goal_x - node_x| + |goal_y - node_y|\]
 \subsubsection*{Pseudo Code}
 function BEST-FIRST-SEARCH(problem, f) was mentioned in Section \ref{UCS_best_first_search}.
 \begin{verbatim}
