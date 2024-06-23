@@ -1,6 +1,6 @@
 from Graphs import initialize, generateFigure, getRawData, readMatrix, np
 from Colors import *
-from student_functions import DFS, BFS, UCS, GBFS, Astar
+from student_functions import DFS, BFS, UCS, GBFS, Astar, IDS, Astar_with_manhattan_distance, BDS
 import pygame
 import matplotlib.pyplot as plt
 from pygame.locals import *
@@ -80,6 +80,12 @@ def run(input, algorithm, delay):
         visited, path  = GBFS(matrix, start, end)
     elif algorithm == 'astar':
         visited, path  = Astar(matrix, start, end, pos)
+    elif algorithm == 'IDS':
+        visited, path = IDS(matrix, start, end)
+    elif algorithm == 'astar_2':
+        visited, path  = Astar_with_manhattan_distance(matrix, start, end, pos)
+    elif algorithm == 'bds':
+        visited, path = BDS(matrix, start, end)
     else:
         print("Pass a search algorithm to run program.")
     

@@ -13,4 +13,5 @@
 \contentsline {subsection}{\numberline {4.3}Uniform-Cost Search (UCS)}{6}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Greedy Best First Search (GBFS) Algorithm }{7}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}A* Search Algorithm}{8}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Comparison of UCS and A* Algorithms}{9}{section.5}%
+\contentsline {subsection}{\numberline {4.6}Iterative Deepening Search (IDS) Algorithm}{8}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Comparison of UCS and A* Algorithms}{10}{section.5}%

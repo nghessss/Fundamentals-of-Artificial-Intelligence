@@ -1,0 +1,40 @@
+\subsection{Iterative Deepening Search (IDS) Algorithm}
+\subsubsection*{Concepts}
+\begin{itemize}
+    \item \textbf{Introduction:} Iterative Deepening Search (IDS) combines the benefits of depth-first and breadth-first search. It performs a series of depth-limited searches, increasing the depth limit with each iteration.
+    \item \textbf{Traversal Method:} IDS uses a depth-limited search repeatedly, increasing the limit after each complete pass until a solution is found or the search space is exhausted.
+\end{itemize}
+
+\subsubsection*{Pseudo Code}
+\begin{verbatim}
+function ITERATIVE-DEEPENING-SEARCH(problem) returns a solution node or failure
+    for depth = 0 to oo do
+        result←DEPTH-LIMITED-SEARCH(problem, depth)
+        if result != cutoff then return result
+
+function DEPTH-LIMITED-SEARCH(problem, l) returns a node or failure or cutoff
+    frontier←a LIFO queue (stack) with NODE(problem.INITIAL) as an element
+    result←failure
+    while not IS-EMPTY(frontier) do
+        node←POP(frontier)
+        if problem.IS-GOAL(node.STATE) then return node
+        if DEPTH(node) > l then
+            result←cutoff
+        else if not IS-CYCLE(node) do
+            for each child in EXPAND(problem, node) do
+                add child to frontier
+    return result
+\end{verbatim}
+
+\subsubsection*{Complexity}
+\begin{itemize}
+    \item \textbf{Time Complexity:} \(O(b^d)\), where \(b\) is the branching factor and \(d\) is the depth of the shallowest goal node. This is because IDS performs multiple passes, but the time complexity remains exponential.
+    \item \textbf{Space Complexity:} \(O(bd)\), as IDS only needs to store a stack of nodes up to the current depth limit.
+\end{itemize}
+
+\subsubsection*{Properties}
+\begin{itemize}
+    \item \textbf{Completeness:} IDS is complete if the branching factor is finite, meaning it will eventually find a solution if one exists.
+    \item \textbf{Optimality:} IDS is optimal if all step costs are equal, as it finds the shallowest goal node.
+    \item \textbf{Traversal Type:} IDS performs iterative deepening, combining depth-first search's space efficiency with breadth-first search's completeness.
+\end{itemize}
